@@ -22,11 +22,11 @@ let rankedList = document.querySelectorAll('.ranked-list')
 function deepestChild(){
  
   let deepChild = document.querySelector('#grand-node')
- let deeperChild = deepChild.children[0]
+  let deeperChild = deepChild.children[0]
  
- while (deeperChild) {
- deepChild = deeperChild
- deeperChild = deepChild.children[0]
- } return deepChild
- 
-  }
+   while (deeperChild) {
+    deepChild = deeperChild
+    deeperChild = deepChild.children[0]
+   } 
+  return deepChild
+}
