@@ -19,3 +19,6 @@ let rankedList = document.querySelectorAll('.ranked-list')
 } 
 }
 
+function deppestChild(){
+  let deepChild = document.querySelector()
+}
