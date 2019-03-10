@@ -22,6 +22,6 @@ let rankedList = document.querySelectorAll('.ranked-list')
 function deepestChild(){
   let deepChild = document.querySelector('#grand-node')
   for (let i = 0; i < deepChild.length; i++){
-    return deepChild[3].innerHTML
+    return deepChild[i].innerHTML
   }
 }
