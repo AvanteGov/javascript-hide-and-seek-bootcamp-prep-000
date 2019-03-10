@@ -18,3 +18,4 @@ let rankedList = document.querySelectorAll('.ranked-list')
         }
 } 
 }
+
